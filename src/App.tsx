@@ -1,7 +1,11 @@
-import React from "react";
+import QuizLayout from "./components/QuizLayout";
 
 const App = () => {
-  return <h2>React Quiz App using TypeScript</h2>
+  return (
+    <div className="App">
+      <QuizLayout />
+    </div>
+  );
 };
 
 export default App;
